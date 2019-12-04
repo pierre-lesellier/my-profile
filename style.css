@@ -1,0 +1,74 @@
+body {
+	background: #f2eee5;
+	font-family: 'Public Sans', sans-serif;
+}
+h1{
+	color: #465881;
+    font-family: Helvetica;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+h2{
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 300
+	font-size : 20px;
+	color:#465881;
+}
+p{
+	font-weight: 300
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+#logo{
+  	max-width:100%; 
+    height:auto;
+	border-radius: 4%;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.container{
+	
+	width: 700px;
+ 	margin: 40px auto;
+}
+.cardwhite{
+	width: 300px;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 40px;
+  	border: 1px solid lightgrey;
+}
+.square{
+	max-width:100%; 
+    height:auto;
+	border-radius: 4%;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
